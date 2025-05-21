@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <OutputType>Library</OutputType>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="config\**" />
+    <Content Include="config\**">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="ExileCore2">
+      <HintPath>$(exapiPackage)\ExileCore2.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="GameOffsets2">
+      <HintPath>$(exapiPackage)\GameOffsets2.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="ImGui.NET" Version="1.90.0.1" />
+  </ItemGroup>
+</Project>

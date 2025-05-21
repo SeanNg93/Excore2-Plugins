@@ -1,0 +1,57 @@
+# Delirium Ignores
+Metadata/Monsters/LeagueAffliction/DoodadDaemons/DoodadDaemonEyes1
+Metadata/Monsters/LeagueAffliction/DoodadDaemons/DoodadDaemonEyes2
+Metadata/Monsters/LeagueAffliction/DoodadDaemons/DoodadDaemonEyes3
+Metadata/Monsters/LeagueAffliction/DoodadDaemons/DoodadDaemonSpikes
+Metadata/Monsters/LeagueAffliction/DoodadDaemons/DoodadDaemonSpikes2
+Metadata/Monsters/LeagueAffliction/DoodadDaemons/DoodadDaemonSpikes3
+Metadata/Monsters/LeagueAffliction/DoodadDaemons/DoodadDaemonPimple1
+Metadata/Monsters/LeagueAffliction/DoodadDaemons/DoodadDaemonPimple2
+Metadata/Monsters/LeagueAffliction/DoodadDaemons/DoodadDaemonPimple3
+Metadata/Monsters/LeagueAffliction/DoodadDaemons/DoodadDaemonGoatFillet1Vanish
+Metadata/Monsters/LeagueAffliction/DoodadDaemons/DoodadDaemonGoatFillet2Vanish
+Metadata/Monsters/LeagueAffliction/DoodadDaemons/DoodadDaemonGoatRhoa1Vanish
+Metadata/Monsters/LeagueAffliction/DoodadDaemons/DoodadDaemonGoatRhoa2Vanish
+            
+# Random Ignores
+Metadata/Monsters/InvisibleFire/InvisibleSandstorm_
+Metadata/Monsters/InvisibleFire/InvisibleFrostnado
+Metadata/Monsters/InvisibleFire/InvisibleFireAfflictionDemonColdDegen
+Metadata/Monsters/InvisibleFire/InvisibleFireAfflictionDemonColdDegenUnique
+Metadata/Monsters/InvisibleFire/InvisibleFireAfflictionCorpseDegen
+Metadata/Monsters/InvisibleFire/InvisibleFireEyrieHurricane
+Metadata/Monsters/InvisibleFire/InvisibleIonCannonFrost
+Metadata/Monsters/InvisibleFire/AfflictionBossFinalDeathZone
+Metadata/Monsters/InvisibleFire/InvisibleFireDoedreSewers
+Metadata/Monsters/InvisibleFire/InvisibleFireDelveFlameTornadoSpiked
+Metadata/Monsters/InvisibleFire/InvisibleHolyCannon
+
+Metadata/Monsters/InvisibleCurse/InvisibleFrostbiteStationary
+Metadata/Monsters/InvisibleCurse/InvisibleConductivityStationary
+Metadata/Monsters/InvisibleCurse/InvisibleEnfeeble
+
+Metadata/Monsters/InvisibleAura/InvisibleWrathStationary
+
+# Metadata/Monsters/Labyrinth/GoddessOfJustice
+# Metadata/Monsters/Labyrinth/GoddessOfJusticeMapBoss
+Metadata/Monsters/Frog/FrogGod/SilverOrb
+Metadata/Monsters/Frog/FrogGod/SilverPool
+Metadata/Monsters/LunarisSolaris/SolarisCelestialFormAmbushUniqueMap
+Metadata/Monsters/Invisible/MaligaroSoulInvisibleBladeVortex
+Metadata/Monsters/Daemon
+Metadata/Monsters/Daemon/MaligaroBladeVortexDaemon
+Metadata/Monsters/Daemon/SilverPoolChillDaemon
+Metadata/Monsters/AvariusCasticus/AvariusCasticusStatue
+Metadata/Monsters/Maligaro/MaligaroDesecrate
+
+# Ritual
+Metadata/Monsters/LeagueRitual/FireMeteorDaemon
+Metadata/Monsters/LeagueRitual/GenericSpeedDaemon
+Metadata/Monsters/LeagueRitual/ColdRotatingBeamDaemon
+Metadata/Monsters/LeagueRitual/ColdRotatingBeamDaemonUber
+Metadata/Monsters/LeagueRitual/GenericEnergyShieldDaemon
+Metadata/Monsters/LeagueRitual/GenericMassiveDaemon
+Metadata/Monsters/LeagueRitual/ChaosGreenVinesDaemon_
+Metadata/Monsters/LeagueRitual/ChaosSoulrendPortalDaemon
+Metadata/Monsters/LeagueRitual/VaalAtziriDaemon
+Metadata/Monsters/LeagueRitual/LightningPylonDaemon

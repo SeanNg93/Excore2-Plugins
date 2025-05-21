@@ -1,0 +1,53 @@
+# Ignore DLLs in the root directory
+ExileCore2.dll
+GameOffsets2.dll
+ImGui.NET.dll
+
+# Ignore markdown documentation file in the root directory
+excore.mdc
+
+# Ignore dot-folders
+.cursor/
+.trae/
+
+# Ignore common build output folders (adjust if your plugins use different names)
+[Bb]in/
+[Oo]bj/
+
+# Ignore Visual Studio specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore Rider specific files
+.idea/
+
+# Ignore other common files
+*.lock
+*.log
+*.tmp
+*.bak
+
+# Don't ignore .gitattributes and this .gitignore file itself
+!.gitattributes
+!.gitignore
+
+# Explicitly include plugin project files if they were accidentally ignored by broader patterns
+# (This is usually not necessary if the above rules are sufficient)
+# !AutoMyAim2/**
+# !Copilot/**
+# !EffectZones/**
+# !ExileMaps/**
+# !ExpeditionIcons/**
+# !HighlightedItems/**
+# !MarketWizard/**
+# !MinimapIcons/**
+# !PathfindSanctum-PoE2/**
+# !PickIt/**
+# !Radar/**
+# !ReAgent/**
+# !Stashie/**
+# !TabletsAboba/**
+# !Tradie/**
+# !WaystoneAlchemy/**
