@@ -86,12 +86,21 @@ public class AutoMyAim : BaseSettingsPlugin<AutoMyAimSettings>
     {
         if (Settings.ToggleWalkableTerrainHotkey.PressedOnce())
         {
-            Settings.UseWalkableTerrainInsteadOfTargetTerrain.Value = !Settings.UseWalkableTerrainInsteadOfTargetTerrain.Value;
+            // Check conditions before toggling
+            var gameUi = GameController.IngameState.IngameUi;
+            var isChatOpen = gameUi?.ChatTitlePanel?.IsVisible ?? false; // Adjusted to check ChatTitlePanel
+            var isWindowFocused = GameController.Window.IsForeground();
+            var isInHideout = GameController.Area.CurrentArea.IsHideout;
+
+            if (!isChatOpen && isWindowFocused && !isInHideout)
+            {
+                Settings.UseWalkableTerrainInsteadOfTargetTerrain.Value = !Settings.UseWalkableTerrainInsteadOfTargetTerrain.Value;
 #if DEBUG || true
-            _walkableTerrainToggleMessage = Settings.UseWalkableTerrainInsteadOfTargetTerrain.Value ? "Walkable Terrain ON" : "Walkable Terrain OFF";
-            _walkableTerrainToggleMessageUntil = (DateTimeOffset.UtcNow.ToUnixTimeMilliseconds() / 1000.0) + 1.5;
+                _walkableTerrainToggleMessage = Settings.UseWalkableTerrainInsteadOfTargetTerrain.Value ? "Walkable Terrain ON" : "Walkable Terrain OFF";
+                _walkableTerrainToggleMessageUntil = (DateTimeOffset.UtcNow.ToUnixTimeMilliseconds() / 1000.0) + 1.5;
 #endif
-            Debug.WriteLine(Settings.UseWalkableTerrainInsteadOfTargetTerrain.Value ? "Walkable Terrain ON" : "Walkable Terrain OFF");
+                Debug.WriteLine(Settings.UseWalkableTerrainInsteadOfTargetTerrain.Value ? "Walkable Terrain ON" : "Walkable Terrain OFF");
+            }
         }
 
         _hotkeyManager.Update();
@@ -239,10 +248,6 @@ public class AutoMyAim : BaseSettingsPlugin<AutoMyAimSettings>
     {
 #if DEBUG || true
         _hotkeyManager.RenderHotkeySettings();
-        // ImGui.Separator(); // Removed separator after Add Toggle Key button
-        ImGui.Text("Toggle Walkable Terrain Hotkey:");
-        DrawHotkeySetting(Settings.ToggleWalkableTerrainHotkey, "ToggleWalkableTerrainHotkey");
-        // ImGui.Separator(); // Removed separator after Toggle Walkable Terrain Hotkey button
 #endif
         base.DrawSettings();
     }
