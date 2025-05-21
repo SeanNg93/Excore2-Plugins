@@ -30,6 +30,3 @@ Not
   - Link to the item (poe2db)
   - Type
   - Icon.png (upload the icon)
-
-## Donations
-[![Donate with PayPal](./assets/donate.png)](https://www.paypal.com/donate/?hosted_button_id=NX4PVU9B2YFDU)

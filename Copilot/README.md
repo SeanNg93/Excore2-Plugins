@@ -29,8 +29,3 @@ Please **do not** open an issue if the plugin isn't working due to your settings
 
 ## Known bugs
 - May experience issues in "ARENA".
-
-## Donations
-<a href="https://www.paypal.com/donate/?hosted_button_id=NX4PVU9B2YFDU">
-  <img src="./assets/donate.png" width="200">
-</a>
